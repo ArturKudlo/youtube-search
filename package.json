@@ -1,0 +1,15 @@
+{
+    "name": "youtbue",
+    "version": "1.0.0",
+    "description": "youtube-client",
+    "author": "Artur Kudla",
+    "devDependencies": {
+        "babel-loader": "^5.0.0",
+        "eslint": "^3.9.1",
+        "eslint-config-airbnb": "^12.0.0",
+        "eslint-loader": "^1.6.1",
+        "eslint-plugin-import": "^2.1.0",
+        "eslint-plugin-jsx-a11y": "^2.2.3",
+        "eslint-plugin-react": "^6.5.0"
+    }      
+}

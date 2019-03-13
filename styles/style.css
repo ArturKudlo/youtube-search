@@ -1,0 +1,129 @@
+body {
+    display: flex;
+	flex-direction: column;
+	background: #e0e0e0;
+    font-size: 15px;
+    height: 100%;
+	margin: 0;
+}
+
+header {
+    min-height: 60px;
+	text-align: center;	
+}
+
+#wrapper {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    min-height: 508px;
+}
+
+#wrapper section {
+    margin: 25px;
+    position: relative;
+    min-height: 475px;
+    transition: transform 1s;
+    border: 1px solid #000;
+    min-width: 400px;
+    max-width: 400px;
+    background-color: #ddd5d5;
+}
+
+header input {
+    padding: 5px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 5px;
+    width: 350px;
+	background: #e0e0e0;
+	color: #000;
+}
+
+#wrapper section a {
+    position: absolute;
+    color: #fff;
+    background-color: #000;
+    margin-bottom: 5px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-decoration: none;
+}
+
+#wrapper section div:nth-child(1) {
+    position: relative;
+}
+
+#wrapper section img {
+	width: 100%;
+}
+
+#wrapper section p {
+    margin: 15px;
+}
+
+#wrapper section a h1 {
+    margin: 15px;
+}
+
+
+.add-info span:not(:last-child) {
+    border-right: 1px solid #000;
+}
+
+.add-info span {
+    line-height: 40px;
+    display: inline-block;
+    flex: auto;
+    text-align: center;
+}
+
+.add-info {
+    position: absolute;
+    background-color: #ddd5d5;
+    color: #554f4f;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #000;	
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    cursor: pointer;
+    position: relative;
+    width: 19px;
+    height: 19px;
+    background: #524d4d;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 18px;
+}
+
+footer a:last-child {
+    background: #000;
+}
+
+.current-page {
+    background-color: #5ac45a;
+}
+
+.tooltip {
+    background: #fff;
+    border: 1px solid #111;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    left: -5px;
+    bottom: 18px;
+    border-radius: 10px;
+    color: #000;
+}
